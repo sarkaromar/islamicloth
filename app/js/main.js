@@ -1,2 +1,4 @@
-let name = "Md. Monir hossain";
-console.log(name);
+// Header quick cart option
+$(".btn-cart-info").click(function(){
+    $(".quick-cart").slideToggle();
+})
